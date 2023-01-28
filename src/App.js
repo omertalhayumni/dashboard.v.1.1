@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Login from "./pages/login/Login";
+import Signin from "../src/pages/signin/Signin.jsx";
 import List from "./pages/list/List";
 import New from "./pages/new/New";
 
@@ -13,8 +13,8 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/">
-            <Route index element={<Home />} />
-            <Route path="login" element={<Login />} />
+            <Route index element={<Signin />} />
+            <Route path="dashboard" element={<Home />} />
             <Route path="users">
               <Route index element={<List />} />
               <Route path=":userID" element={<Single />} />

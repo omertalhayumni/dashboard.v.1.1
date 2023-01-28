@@ -3,14 +3,12 @@ import "./sidebar.scss";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import StorefrontIcon from "@mui/icons-material/Storefront";
-import CreditCardIcon from "@mui/icons-material/CreditCard";
-import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import StackedBarChartIcon from "@mui/icons-material/StackedBarChart";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
-import SettingsSystemDaydreamIcon from "@mui/icons-material/SettingsSystemDaydream";
 import SettingsIcon from "@mui/icons-material/Settings";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import LogoutIcon from "@mui/icons-material/Logout";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const Sidebar = () => {
   return (
@@ -35,13 +33,10 @@ const Sidebar = () => {
             <span>Products</span>
           </li>
           <li>
-            <CreditCardIcon className="icon" />
-            <span>Orders</span>
+            <ShoppingCartIcon className="icon" />
+            <span>Carts</span>
           </li>
-          <li>
-            <LocalShippingIcon className="icon" />
-            <span>Delivery</span>
-          </li>
+          <li></li>
           <p className="title">Useful </p>
           <li>
             <StackedBarChartIcon className="icon" />
@@ -52,11 +47,6 @@ const Sidebar = () => {
             <span>Notification</span>
           </li>
           <p className="title">Service </p>
-
-          <li>
-            <SettingsSystemDaydreamIcon className="icon" />
-            <span>System Health</span>
-          </li>
 
           <li>
             <SettingsIcon className="icon" />
