@@ -1,0 +1,43 @@
+.app.dark {
+  background-color: #222;
+  color: aliceblue;
+
+  .chartgrid {
+    color: aliceblue;
+  }
+  .table {
+    background-color: #222;
+
+    .tableCell {
+      color: aliceblue;
+    }
+  }
+  .sidebar {
+    background-color: #222;
+    color: #999;
+    border-color: #222;
+  }
+  .navbar {
+    color: #999;
+    border-color: #222;
+    .search {
+      border-color: gray;
+    }
+  }
+
+  .datatable {
+    .datagrid {
+      color: gray;
+      border: none;
+
+      .viewButton,
+      .deleteButton {
+        color: gray;
+        border: none;
+      }
+    }
+  }
+  input {
+    background-color: transparent;
+  }
+}
